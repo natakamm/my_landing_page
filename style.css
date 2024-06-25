@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  @media only screen and (max-width: 500px) {
+
+    nav {
+        text-align: center;
+    }
+
+
+      .why {
+        display: inline-block;
+        text-align: center;
+        
+    }
+
+
+    .rows img { 
+        width: auto;
+        margin: auto;
+        height: 100px;
+    }
+   
+    #contact-us {
+        display: inline-block;
+        text-align: center;
+       background-color: blanchedalmond;
+        padding: 20px;
+        margin-top: 60px;
+    
+      }
+
+  }
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(175, 87, 24);
+    color: blanchedalmond;
+}
+
+#logo {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#logo > figcaption {
+    text-align: center;
+    font-family: "Playwrite PT", cursive;
+}
+
+.no-bullets {
+    list-style: none;
+}
+.no-bullets li {
+    display: inline-block;
+    padding: 20px 10px 20px;
+}
+
+nav {
+    background-color: blanchedalmond;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    background-color: brown;
+}
+
+.cta {
+    display: inline-block;
+    background-color: #18831b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    
+  }
+  
+  #about-us p {
+    margin: 1rem;
+}
+
+#about-us h2 {
+    margin-left: 1rem;
+}
+  
+  .rows { 
+    display: flex; 
+    flex-wrap: wrap;
+    margin: 3rem;
+} 
+
+.rows img { 
+    width: auto;
+    margin-right: 10px;
+    height: 100px;
+}
+
+ 
+  #contact-us {
+    display: block;
+    text-align: center;
+   background-color: blanchedalmond;
+    padding: 20px;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  footer {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(175, 87, 24);
+    color: white;
+  }
+
+  button {
+    background-color: #18831b;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 12px;
+    color: white;
+  }
+
+h1, h2 {
+    font-family: "Playwrite PT", cursive;
+  font-optical-sizing: auto;
+  margin-bottom: 10px;
+  margin-top: 30px;
+ 
+}
+
+#dogs {
+    margin: 1rem;
+}
+
+.why {
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 30px;
+    background-color: #18831b;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 3rem;
+    
+}
+
+
+.whybullets {
+    list-style: none;
+    text-align: center;
+}
+
+#welcome {
+    margin: 3rem;
+    text-align: center;
+}
